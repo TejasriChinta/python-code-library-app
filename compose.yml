@@ -9,7 +9,7 @@ services:
     networks:
       - mynetwork
     volumes:
-      -volume1:/var/lib/mysql
+      - volume1:/var/lib/mysql
 
   auth_service:
     image: tejasrichinta9/test-library:authimage
@@ -62,7 +62,7 @@ networks:
     driver: overlay
 
 volumes:
-  volume1: 
+  volume1:
       
 
 
